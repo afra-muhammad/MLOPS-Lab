@@ -1,5 +1,5 @@
 import sys
-sys.path += [('../src')]
+sys.path += [('testing_Suleiman/unit_testing_best_practice/src')]
 from validators import validate_username, validate_password, validate_email
 
 def test_validate_username():
