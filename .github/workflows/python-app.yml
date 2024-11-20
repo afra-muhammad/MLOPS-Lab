@@ -27,4 +27,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        pytest testing_Suleiman/unit_testing_best_practice/src/validators
+        pytest testing_Suleiman/unit_testing_best_practice/test/test_validators.py
