@@ -13,8 +13,8 @@ permissions:
   contents: read
 
 env:
-  SRC_DIR: testing_Suleiman/unit_testing_best_practice/src
-  TEST_DIR: testing_Suleiman/unit_testing_best_practice/test
+  SRC_DIR: testing_Suleiman/unit_testing_best_practice/src/validators.py
+  TEST_DIR: testing_Suleiman/unit_testing_best_practice/test/test_validators.py
 
 jobs:
   build:
